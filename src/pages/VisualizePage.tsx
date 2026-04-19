@@ -99,7 +99,7 @@ int pop() {
   return stack[top--];
 }
 `,
-  "Queue": `// Edit initial data here:
+  "Queue": `
 int data[] = {10, 20, 30};
 int enqueue_val = 40;
 
@@ -135,7 +135,7 @@ void postorder(Node* root) {
   postorder(root->right);
   cout << root->val << " ";
 }`,
-  "Graph": `// BFS Traversal
+  "Graph": `
 void BFS(int s) {
   queue<int> q;
   visited[s] = true; q.push(s);
