@@ -18,7 +18,7 @@ export default function Navbar() {
           <img
             src={logo}
             alt="Platform"
-            className="h-10 transition-transform duration-300 hover:scale-105 drop-shadow-[0_0_18px_hsl(var(--primary)/0.55)]"
+            className="h-10 transition-transform duration-300 hover:scale-105 drop-shadow-[0_0_18px_hsl(var(--primary)/0.55)] brightness-0 invert"
           />
         </Link>
         <div className="flex items-center gap-1">
